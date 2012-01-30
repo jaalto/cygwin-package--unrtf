@@ -1,0 +1,4 @@
+# Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+
+tag1: unrtf
+  http://packages.debian.org/unstable/unrtf pregexp:tar.gz file:orig.tar.gz new: x:

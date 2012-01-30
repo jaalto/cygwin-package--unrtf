@@ -1,0 +1,81 @@
+unrtf
+------------------------------------------
+
+RTF to other formats converter
+
+A moderately complicated converter from RTF to other formats,
+including HTML, LaTeX, text, and PostScript. Converting to HTML, it
+supports tables, fonts, colors, embedded images, hyperlinks, paragraph
+alignment among other things.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://savannah.gnu.org/projects/unrtf
+  http://packages.debian.org/unrtf
+
+Canonical download:
+  See above
+
+Version control repository:
+  https://savannah.gnu.org/cvs/?group=unrtf
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Dave Davey <daved@physiol.usyd.edu.au>, Marcos S. Amaral <marcossamaral@terra.com.br>, Zachary Thayer Smith <tuorfa@yahoo.com>
+  Bugs: <bug-unrtf@gnu.org> or https://savannah.gnu.org/bugs/?group=unrtf
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  You need cygbuild.sourceforge.net to build *src.tar.bz2 archive
+  unpack unrtf-0.19.3-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./unrtf*.sh all
+
+This will create:
+  unrtf-0.19.3-1.tar.bz2
+  unrtf-0.19.3-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+
+usr/bin/unrtf.exe
+usr/share/doc/Cygwin/unrtf-0.19.3.README
+usr/share/doc/unrtf-0.19.3/AUTHORS
+usr/share/doc/unrtf-0.19.3/CHANGES
+usr/share/doc/unrtf-0.19.3/COPYING
+usr/share/doc/unrtf-0.19.3/README
+usr/share/doc/unrtf-0.19.3/TODO
+usr/share/doc/unrtf-0.19.3/unrtf.html -> /usr/src/build/build/unrtf/unrtf-0.19.3/doc/unrtf.html
+usr/share/man/man1/unrtf.1.gz
+
+------------------
+
+Port Notes:
+- This port is based on Debian package
+
+----- version 0.19.3-1 -----
+- Initial release 2007-09-13 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+
