@@ -4,4 +4,4 @@ formats, including HTML, LaTeX, text, and PostScript. Converting to
 HTML, it supports tables, fonts, colors, embedded images, hyperlinks,
 paragraph alignment among other things."
 category: Doc
-requires: cygwin
+requires:
